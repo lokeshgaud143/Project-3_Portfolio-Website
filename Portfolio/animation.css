@@ -1,0 +1,8 @@
+@keyframes img_rotat {
+    from{
+        transform: rotate(0);
+    }
+    to{
+    rotate: 360deg;
+    }
+}

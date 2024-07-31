@@ -1,0 +1,200 @@
+@media (max-width:1000px) {
+    .landing {
+        display: block;
+    }
+
+    .landing .first_land {
+        width: 90%;
+        height: fit-content;
+        ;
+    }
+
+    .landing .second_land {
+        width: 90%;
+        height: fit-content;
+        padding-top: 80px;
+        padding-left: 90px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width:1200px) {
+    .skills_div {
+        display: block;
+        height: fit-content;
+    }
+
+    .first_div,
+    .second_div {
+        margin-top: 20px;
+        width: 90%;
+        display: block;
+    }
+
+    .first_skills {
+        border: none;
+        margin: -10px;
+    }
+
+    .second_div {
+        margin: -10px;
+    }
+
+    .second_div h1 {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .main_pag3 {
+        display: block;
+    }
+
+    .first_Exprience {
+        width: 90%;
+        padding-left: 50px;
+        height: fit-content;
+    }
+
+}
+
+@media (max-width:790px) {
+
+    .landing .first_land,
+    .landing .second_land {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .first_div,
+    .second_div {
+        padding-left: 15px;
+        margin-top: -62px;
+        margin-left: 20px;
+    }
+
+    .first_div h1,
+    .second_div h1 {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .first_skills span {
+        font-size: large;
+    }
+}
+
+@media (max-width:1400px) {
+    nav li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:650px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width:800px) {
+
+    .first_land,
+    .second_land {
+        padding-left: 10px;
+    }
+
+    header {
+        padding-left: 2%;
+    }
+}
+
+@media (max-width:650px) {
+    header label {
+        display: block;
+        margin-left: 70%;
+    }
+
+}
+
+@media (max-width:650px) {
+    header label {
+        margin-left: 65%;
+    }
+}
+
+@media (max-width:480px) {
+    header label {
+        margin-left: 55%;
+    }
+}
+
+@media (max-width:650px) {
+
+    nav li {
+        padding-bottom: 20px;
+        font-size: xx-large;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        transition: .5s;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+        box-shadow: 2px 2px 5px black;
+    }
+
+    nav {
+        margin-top: -1000px;
+        transition: 5s;
+
+    }
+
+}
+
+@media (max-width:650px) {
+
+
+    #check:checked~nav {
+        display: block;
+        width: 100%;
+        transition: .5s;
+        margin-top: -20px;
+        margin-top: 50px;
+        position: absolute;
+        margin-left: -20px;
+        height: 100%;
+        transition: 4s;
+    }
+}
+
+@media (min-width:650px) {
+    .first_land img {
+        animation-name: img_rotat;
+        animation-timing-function: ease-in-out;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-direction: normal;
+
+    }
+}
+
+@media (min-width:102px) {
+    .pag1 {
+        padding: 13px;
+        padding-top: 31px;
+    }
+}
+
+@media (max-width:510px) {
+    .first_Exprience {
+        padding-left: 10px;
+        margin: 10px;
+    }
+}
